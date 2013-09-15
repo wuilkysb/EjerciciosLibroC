@@ -11,6 +11,6 @@ adicionado al repositorio principal.
 
 El nombre del archivo deberá respetar el siguiente formato:
 
-<nombreUsuario_nroEjercicio.c>
+nombreUsuario_nroEjercicio.c
 
 
