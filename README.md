@@ -16,5 +16,32 @@ Ej:
 
 **Alejandro_Druetta/ej002.c**
 
+##Pasos para trabajar con el repositorio
+
+- Hacer fork del repositorio en la página de GitHub (botón).
+
+- Clonar localmente el fork en nuestro ordenador:
+
+<!-- language: lang-bash -->
+
+    $ git clone git@github.com:nombreUsuario/EjerciciosLibroC.git
+
+- Definir el repositorio original como upstream para mantenerse
+   actualizado con los cambios.
+
+<!-- language: lang-bash -->
+
+    $ git remote add upstream git@github.com:GrupoEstudioC/EjerciciosLibroC.git
+
+- A medida que se producen cambios en el repositorio original,
+   actualizar el repositorio local:
+
+<!-- language: lang-bash -->
+
+    $ git pull --rebase upstream master
+
+- Hacer pull request para presentar los cambios que hemos hecho en
+   nuestro repositorio local (en la página, botón).
+
 
 
