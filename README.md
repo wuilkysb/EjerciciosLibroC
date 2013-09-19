@@ -10,6 +10,11 @@ sea adicionado al repositorio principal.
 
 El **nombre del fichero** deberá respetar el siguiente formato:
 
-**nombreUsuario_nroEjercicio.c**
+**nombreUsuario/ejNro.c**
+
+Ej:
+
+**Alejandro_Druetta/ej002.c**
+
 
 
