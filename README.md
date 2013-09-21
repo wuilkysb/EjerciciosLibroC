@@ -8,9 +8,11 @@ en su propia cuenta e ir agregando sus archivos en una carpeta con su nombre.
 Luego hará un **pull request** solicitando que el fichero
 sea adicionado al repositorio principal.
 
-El **nombre del fichero** deberá respetar el siguiente formato:
+El directorio y los **nombres de fichero** deberán respetar el siguiente formato:
 
 **nombreUsuario/ejNro.c**
+
+Donde, **nombreUsuario** es el directorio personal y **ejNro.c** es el fichero de código.
 
 Ej:
 
