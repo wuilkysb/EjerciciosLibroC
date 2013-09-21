@@ -12,7 +12,7 @@ El directorio y los **nombres de fichero** deberán respetar el siguiente format
 
 **nombreUsuario/ejNro.c**
 
-Donde, **nombreUsuario** es el directorio personal y **ejNro.c** es el fichero de código.
+Donde, **nombreUsuario** es una carpeta personal y **ejNro.c** es el fichero de código.
 
 Ej:
 
