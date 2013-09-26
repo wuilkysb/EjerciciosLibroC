@@ -17,7 +17,7 @@ int main(void)
     dx = x2 - x1;
     dy = y2 - y1;
 
-    distancia = sqrt(dx * dx + dy *dy);
+    distancia = sqrt(pow(dx, 2) + pow(dy, 2));
 
     printf("La distancia entre los dos puntos es: %f\n", distancia);
 

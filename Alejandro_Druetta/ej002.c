@@ -9,12 +9,8 @@ int main(void)
     printf("Dame el segundo número: ");
     scanf("%f", &b);
 
-    if (a >= b){
-        maximo = a;
-    }
-    else {
-        maximo = b;
-    }
+    if (a >= b) maximo = a;
+    else maximo = b;
 
     printf("El máximo es %f.\n", maximo);
 

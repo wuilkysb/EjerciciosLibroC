@@ -11,8 +11,7 @@ int main(void)
 
     if (n * m == 100){
         printf("El producto de %d * %d es igual a 100\n", n, m);
-    }
-    else {
+    } else {
         printf("El producto de %d * %d es distinto de 100\n", n, m);
     }
 

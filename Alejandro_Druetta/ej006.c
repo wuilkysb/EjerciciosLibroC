@@ -8,7 +8,7 @@ int main(void)
 
     while (x < 10.0){
         printf("%f \t %f\n", x, log(x));
-        x = x + 1.0;
+        x++;
     }
 
     return 0;
