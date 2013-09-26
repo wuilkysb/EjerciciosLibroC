@@ -13,12 +13,8 @@ int main(void)
         x = -b/a;
         printf("Solución: %f\n", x);
     }
-    else if (b != 0){
-        printf("La ecuación no tiene solución.\n");
-    }
-    else {
-        printf("La ecuación tiene infinitas soluciones.\n");
-    }
+    else if (b != 0) printf("La ecuación no tiene solución.\n");
+    else printf("La ecuación tiene infinitas soluciones.\n");
 
     return 0;
 }

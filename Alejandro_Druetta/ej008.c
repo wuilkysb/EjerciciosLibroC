@@ -3,10 +3,8 @@
 
 int main(void)
 {
-    int opcion;
+    int opcion=0;
     float radio, diametro, perimetro, area;
-
-    opcion = 0;
 
     while (opcion != 4){
         printf("Escoge una opción:\n");
@@ -29,7 +27,7 @@ int main(void)
             printf("El perímetro es %f\n", perimetro);
         }
         else if (opcion == 3){
-            area = M_PI * radio * radio;
+            area = M_PI * pow(radio, 2);
             printf("El área es %f\n", area);
         }
         else if (opcion < 0 || opcion > 4){

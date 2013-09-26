@@ -2,17 +2,16 @@
 
 int main(void)
 {
-    int n, i;
-    n = 1;
+    int n=1, i;
 
     while (n < 6){
         i = 1;
         while (i < 6){
             printf("%d\t", n*i);
-            i = i + 1;
+            i++;
         }
         printf("\n");
-        n = n + 1;
+        n++;
     }
 
     return 0;
