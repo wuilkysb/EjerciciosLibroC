@@ -1,5 +1,22 @@
 #Apuntes de programación C
 
+##Tipos de datos
+
+Tipo | Bytes | Desde | Hasta
+:--- | :---: | :---: | :---:
+void | 0 | | |
+signed char | 1 | -128 | 127
+unsigned char | 1 | 0 | 255
+signed short | 2 | -32768 | 32767
+unsigned short | 2 | 0 | 65535
+signed int | 2 | -32768 | 32767
+unsigned int | 2 | 0 | 65535
+signed long | 4 | -2147483648 | 2147483647
+unsigned long | 4 | 0 | 4294967295
+float | 4 | 3.4e-38 | 3.4e38
+double | 8 | 1.7e-308 | 1.7e308
+long double | 10 | 3.4e-4932 | 3.4e4932
+
 ##Salida en pantalla
 
 ###Marcas de formato
