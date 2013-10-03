@@ -36,10 +36,10 @@ int main(void){
             diametro = 2 * radio;
             printf("El diámetro es: %f\n", diametro);
         }else if (opcion == 2){
-            perimetro = 2 * 3.14 * radio;
+            perimetro = 2 * M_PI * radio;
             printf("El perímetro es %f\n", perimetro);
         }else if (opcion == 3){
-            area = 3.14 * pow(radio, 2);
+            area = M_PI * pow(radio, 2);
             printf("El área es %f\n", area);
         }else if(opcion < 0 || opcion > 4){
             printf("Sólo hay cuatro opciones: 1, 2, 3 o 4. Tú has tecleado %d\n", opcion);
