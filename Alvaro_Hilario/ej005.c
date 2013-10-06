@@ -11,12 +11,12 @@ int main(void)
 
 	if(a != 0) {
 		x =  -b/a;
-		printf("Soucion %f:", x);
+		printf("Soucion %f:\n", x);
 	} else {
 		if(b != 0) {
-			printf("La ecuacion no tiene solucion.");
+			printf("La ecuacion no tiene solucion.\n");
 		} else {
-			printf("La eciacion tiene infinitas soluciones.");
+			printf("La eciacion tiene infinitas soluciones.\n");
 		}
 	}
 

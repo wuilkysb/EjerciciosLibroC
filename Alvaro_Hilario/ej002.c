@@ -6,7 +6,7 @@ int main(void)
 
 	printf("Dame el primer numero: ");
 	scanf("%d", &a);
-	printf("Dame el segundo numero ");
+	printf("Dame el segundo numero: ");
 	scanf("%d", &b);
 
 	if(a >= b) {
