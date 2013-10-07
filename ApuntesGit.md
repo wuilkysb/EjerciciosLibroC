@@ -1,7 +1,10 @@
 ####Grupo de Estudios C
 #Git y GitHub
 ###Apuntes para su uso
+<<<<<<< HEAD
 ---
+=======
+>>>>>>> trabajo
 ##Instalación
 
 Instalación en Ubuntu y deribados.
@@ -50,7 +53,11 @@ Los pasos serían los siguientes:
 
 * Verificar si existe una llave SSH:
 
+<<<<<<< HEAD
 Primero, verificamos si ya no poseemos una llave en nuestro ordenador. Si ya existe, la encontraremos en /home/usuario/.ssh/
+=======
+Primero, verificamos si ya poseemos una llave en nuestro ordenador. Si ya existe, la encontraremos en /home/usuario/.ssh/
+>>>>>>> trabajo
 
 <!-- language: lang-bash -->
 
@@ -71,7 +78,11 @@ Primero, verificamos si ya no poseemos una llave en nuestro ordenador. Si ya exi
 
 * Vincular llave SSH a nuestra cuenta de GitHub:
 
+<<<<<<< HEAD
 Nos dirigimos a nuestra cuenta de GitHub --> Account Settings --> SSH Keys --> Add SSH Key --> Introducimos un título y Ctrl+V para pegar.
+=======
+Nos dirigimos a nuestra cuenta de GitHub --> Account Settings --> SSH Keys --> Add SSH Key --> Introducimos un título y Ctrl+V para pegar la llave.
+>>>>>>> trabajo
 
 * Verificar la conexión:
 
@@ -79,8 +90,11 @@ Nos dirigimos a nuestra cuenta de GitHub --> Account Settings --> SSH Keys --> A
 
     $ ssh git@github.com
 
+<<<<<<< HEAD
 ---
 
+=======
+>>>>>>> trabajo
 ##Flujo de trabajo básico
 
 ###Preparando todo
@@ -187,15 +201,28 @@ Ahora llegamos a la siguiente situación:
 
 Tenemos que dejar todo esto fusionado.
 
+<<<<<<< HEAD
 #####Fusionar rama de trabajo con master
 
+=======
+>>>>>>> trabajo
 * Saltamos a master:
 
 <!-- language: lang-bash -->
 
     $ git checkout master
 
+<<<<<<< HEAD
 * Fusionar lo que hay en trabajo con lo que hay en master:
+=======
+#####Fusionar master con upstream (repositorio principal del grupo):
+
+<!-- language: lang-bash -->
+
+    $ git pull upstream master
+
+#####Fusionar rama de trabajo con master
+>>>>>>> trabajo
 
 <!-- language: lang-bash -->
 
@@ -203,7 +230,11 @@ Tenemos que dejar todo esto fusionado.
     
 La opción --squash es opcional (valga la redundancia). Hace que los muchos commits que podamos haber hecho en trabajo pasen al histórico de master como uno solo. Es lo que nos permite mantener master mejor organizada y así, mantener organizado el repositorio principal.
 
+<<<<<<< HEAD
 * Prepara y confirmar:
+=======
+* Preparar y confirmar:
+>>>>>>> trabajo
 
 <!-- language: lang-bash -->
 
@@ -212,6 +243,7 @@ La opción --squash es opcional (valga la redundancia). Hace que los muchos comm
 
 De esa forma, todos los cambios hechos en trabajo los resumimos en un único commit en master.
 
+<<<<<<< HEAD
 * Fusionar master con upstream (repositorio principal del grupo):
 
 <!-- language: lang-bash -->
@@ -219,6 +251,9 @@ De esa forma, todos los cambios hechos en trabajo los resumimos en un único com
     $ git pull --rebase upstream master
 
 * Fusionar repositorio local con fork:
+=======
+#####Fusionar repositorio local con fork:
+>>>>>>> trabajo
 
 <!-- language: lang-bash -->
 
@@ -228,4 +263,14 @@ De esa forma, todos los cambios hechos en trabajo los resumimos en un único com
 
 En la página del **fork** (no en la del repositorio principal), a la derecha, encontramos un botón **pull request**, luego presionamos "New pull request" y a continuación donde dice "Click to create a pull request for this comparison" y por último "Send pull request".
 
+<<<<<<< HEAD
 Si todo funcionó bien, el repositorio principal del grupo en GitHub, nuestro fork en GitHub y nuestro repositorio local (en nuestro computador) deberían ser ahora copias idénticas.
+=======
+Si todo funcionó bien, el repositorio principal del grupo en GitHub, nuestro fork en GitHub y nuestro repositorio local (en nuestro computador) deberían ser ahora copias idénticas.
+
+Por último, antes de seguir modificando el proyecto localmente, debemos volver a la rama de trabajo:
+
+<!-- language: lang-bash -->
+
+    $ git checkout trabajo
+>>>>>>> trabajo
