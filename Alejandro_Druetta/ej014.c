@@ -18,3 +18,4 @@ Versión C:
 5. "una \'cadena\'"
 6. "una cadena que ocupa\n dos líneas"
 7. "una cadena que \\no ocupa dos líneas"
+*/
