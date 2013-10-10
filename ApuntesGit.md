@@ -3,7 +3,7 @@
 ###Apuntes para su uso
 ##Instalación
 
-Instalación en Ubuntu y deribados.
+Instalación en Ubuntu y derivados.
 
 <!-- language: lang-bash -->
 
