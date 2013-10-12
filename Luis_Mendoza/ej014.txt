@@ -1,0 +1,13 @@
+"una cadena"
+
+"una cadena"
+
+"una \"cadena\""
+
+"una \"cadena\""
+
+"una \'cadena\'"
+
+"una cadena que ocupa \n dos lineas"
+
+"una cadena que \\ no ocupa dos lineas"

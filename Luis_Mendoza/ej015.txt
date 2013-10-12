@@ -1,0 +1,5 @@
+printf("%d-%d", a+1, 2+2);
+
+suponiendo que a es un entero = 10, el código mostrará en pantalla:
+
+11-4
