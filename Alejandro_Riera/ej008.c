@@ -36,7 +36,7 @@ int main() {
      scanf("%d",&opcion);
 
      printf("Dame el radio de un Circulo: \n");
-     scanf("%f",&radio);
+     scanf("%g",&radio);
 
      if(opcion==1){
         diametro= 2*radio;
