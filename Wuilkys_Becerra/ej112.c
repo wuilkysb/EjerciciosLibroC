@@ -23,4 +23,5 @@ int main(void){
     printf("El numero de palabras es:  %d", cont);
 
 return 0;
+
 }

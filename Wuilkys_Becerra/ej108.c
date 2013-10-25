@@ -32,5 +32,5 @@ int main(void){
     if(cont > 0) printf(" %d ", indice);
     else printf("No esta contenida ");
 
-    return 0;
+return 0;
 }

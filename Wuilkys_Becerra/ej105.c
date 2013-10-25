@@ -19,5 +19,5 @@ int main(void){
     if(0 == pal) printf("Es palindromo");
     else printf("no es palindromo");
 
-    return 0;
+return 0;
 }

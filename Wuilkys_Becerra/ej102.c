@@ -16,5 +16,5 @@ int main(void){
 
     printf("%s ", copia);
 
-    return 0;
+return 0;
 }
