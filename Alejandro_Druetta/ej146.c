@@ -11,25 +11,26 @@
 
 enum { AnyadirCont=1, BuscarCont, SuprimirCont, AnyadirTel, SuprimirTel, Salir };
 
-struct Telefono {
+typedef struct {
 	char codarea[7];
 	char numero[11];
-};
+} MisTelefonos;
 
-struct Contacto {
+typedef struct {
 	char nombre[NOMBRELON+1];
 	char apellido[NOMBRELON+1];
-	struct Telefono telefono[MAXTEL];
+	MisTelefonos telefono[MAXTEL];
 	int tel_cant;
-};
+} MisContactos;
 
-struct Agenda {
-	struct Contacto contacto[MAXCONT];
+typedef struct {
+	MisContactos contacto[MAXCONT];
 	int cont_cant;
-} agenda;
+} MiAgenda;
 
 int main(void)
 {
+	MiAgenda agenda;
 	int i, j, k, opcion;
 	char opcion_sn, opcion_tel;
 	char nombre[NOMBRELON+1], apellido[NOMBRELON+1];
